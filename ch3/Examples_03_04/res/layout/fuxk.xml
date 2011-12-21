@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+        android:id="@+id/widget35"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        >
+    <AnalogClock
+            android:id="@+id/widget30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="0px"
+            android:layout_y="0px"
+            >
+    </AnalogClock>
+    <EditText
+            android:id="@+id/widget27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fuxdfdsfdsfsdfk"
+            android:background="#ff0000"
+            android:textSize="18sp"
+            android:layout_x="50px"
+            android:layout_y="82px"
+            >
+    </EditText>
+    <Button
+            android:id="@+id/widget36"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00fff0"
+            android:text="Button"
+            android:layout_x="160px"
+            android:layout_y="102px"
+            >
+    </Button>
+</AbsoluteLayout>

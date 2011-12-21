@@ -32,6 +32,7 @@ public class Activity01 extends Activity
             startService(new Intent("com.yarin.Android.MUSIC"));
         }
     };
+
    //Í£Ö¹°´Å¥
     private OnClickListener stop = new OnClickListener()
     {
