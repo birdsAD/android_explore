@@ -18,9 +18,9 @@ public class Activity01 extends Activity
 		setContentView(R.layout.main);
 		/* 获得TextView对象 */
 		textview = (TextView)this.findViewById(R.id.textview);
-		
+
 		String string = "TextView示例，欢迎使用！";
-		
+
 		/* 设置文本的颜色 */
 		textview.setTextColor(Color.RED);
 		/* 设置字体大小 */
