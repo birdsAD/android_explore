@@ -19,11 +19,10 @@ public class Activity01 extends Activity {
 
 		textview = (TextView) this.findViewById(R.id.tv1);
 
-		String string = "Toast示例，当收到短信时，我们会提示，欢迎使用！";
 		textview.setTextSize(30);
-		textview.setText(string);
 
 		Button button = (Button) findViewById(R.id.button1);
+
 		/* 监听button的事件信息 */
 		button.setOnClickListener(new Button.OnClickListener() {
 			public void onClick(View v) {
