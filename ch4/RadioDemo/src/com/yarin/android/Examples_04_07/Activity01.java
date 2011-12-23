@@ -52,7 +52,7 @@ public class Activity01 extends Activity {
 	public void DisplayToast(String str) {
 		Toast toast = Toast.makeText(this, str, Toast.LENGTH_LONG);
 		// 设置toast显示的位置
-		toast.setGravity(Gravity.TOP, 0, 220);
+		toast.setGravity(Gravity.BOTTOM, 0, 220);
 		// 显示该Toast
 		toast.show();
 	}
