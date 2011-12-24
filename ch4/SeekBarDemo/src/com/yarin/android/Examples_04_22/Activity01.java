@@ -33,10 +33,12 @@ public class Activity01 extends Activity
 	{
 		mProgressText.setText("当前值："+progress);
 	}
+
 	public void onStartTrackingTouch(SeekBar seekBar)
 	{
 		mTrackingText.setText("正在调节");
 	}
+
 	//停止拖动
 	public void onStopTrackingTouch(SeekBar seekBar)
 	{
