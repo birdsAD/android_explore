@@ -15,20 +15,20 @@
             android:id="@android:id/tabcontent"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent">
-            <TextView 
+            <TextView
                 android:id="@+id/textview1"
                 android:layout_width="fill_parent"
-                android:layout_height="fill_parent" 
+                android:layout_height="fill_parent"
                 android:text="this is a tab" />
-            <TextView 
+            <TextView
                 android:id="@+id/textview2"
                 android:layout_width="fill_parent"
-                android:layout_height="fill_parent" 
+                android:layout_height="fill_parent"
                 android:text="this is another tab" />
-            <TextView 
+            <TextView
                 android:id="@+id/textview3"
                 android:layout_width="fill_parent"
-                android:layout_height="fill_parent" 
+                android:layout_height="fill_parent"
                 android:text="this is a third tab" />
     	</FrameLayout>
     </LinearLayout>
