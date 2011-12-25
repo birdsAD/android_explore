@@ -38,7 +38,7 @@ public class Activity01 extends TabActivity
 	    		.setContent(R.id.textview3));
 	    
 	    //设置TabHost的背景颜色
-	    mTabHost.setBackgroundColor(Color.argb(150, 22, 70, 150));
+	    mTabHost.setBackgroundColor(Color.argb(150, 255, 00, 00));
 	    //设置TabHost的背景图片资源
 	    //mTabHost.setBackgroundResource(R.drawable.bg0);
 	    
