@@ -69,9 +69,9 @@ public class Activity01 extends Activity
 	{
 		if (keyCode == KeyEvent.KEYCODE_BACK)
 		{
-			/* 这里我们在推出应用程序时保存数据 */
+			/* 这里我们在退出应用程序时保存数据 */
 			// 取得活动的preferences对象.
-			SharedPreferences uiState = getPreferences(0);
+			SharedPreferences uiState = getPreferences(Activity.MODE_PRIVATE);
 
 			// 取得编辑对象
 			SharedPreferences.Editor editor = uiState.edit();
