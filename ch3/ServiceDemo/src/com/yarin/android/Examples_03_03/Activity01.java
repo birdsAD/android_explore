@@ -39,7 +39,7 @@ public class Activity01 extends Activity
         public void onClick(View v)
         {
         	//ֹͣService
-            stopService(new Intent("com.yarin.Android.MUSIC"));       
+            stopService(new Intent("com.yarin.Android.MUSIC"));
         }
     };
 
